@@ -9,6 +9,7 @@ interface FilterBarProps {
 }
 
 
+
 export const FilterBar = ({ onSearch, onFilter, onSort, activeFilter }: FilterBarProps) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showSortOptions, setShowSortOptions] = useState(false);
